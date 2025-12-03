@@ -1,0 +1,14 @@
+{
+  "problem_id": 120802,
+  "title": "두 수의 합 구하기",
+  "testcases": [
+    {
+      "inputs": [2, 3],
+      "expected": 5
+    },
+    {
+      "inputs": [100, 2],
+      "expected": 102
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "problem_id": 120805,
+  "title": "몫 구하기",
+  "testcases": [
+    {
+      "inputs": [10, 5],
+      "expected": 2
+    },
+    {
+      "inputs": [7, 2],
+      "expected": 3
+    }
+  ]
+}

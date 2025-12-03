@@ -1,0 +1,14 @@
+{
+  "problem_id": 120803,
+  "title": "두 수의 차 구하기",
+  "testcases": [
+    {
+      "inputs": [2, 3],
+      "expected": -1
+    },
+    {
+      "inputs": [100, 2],
+      "expected": 98
+    }
+  ]
+}

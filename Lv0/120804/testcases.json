@@ -1,0 +1,14 @@
+{
+  "problem_id": 120804,
+  "title": "두 수의 곱 구하기",
+  "testcases": [
+    {
+      "inputs": [3, 4],
+      "expected": 12
+    },
+    {
+      "inputs": [27, 19],
+      "expected": 513
+    }
+  ]
+}
