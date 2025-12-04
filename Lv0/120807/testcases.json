@@ -1,0 +1,18 @@
+{
+  "problem_id": 120807,
+  "title": "숫자 비교하기",
+  "testcases": [
+    {
+      "inputs": [2, 3],
+      "expected": -1
+    },
+    {
+      "inputs": [11, 11],
+      "expected": 1
+    },
+    {
+        "inputs": [7, 99],
+        "expected": -1
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "problem_id": 120806,
+  "title": "두 수의 나눗셈",
+  "testcases": [
+    {
+      "inputs": [3, 2],
+      "expected": 1500
+    },
+    {
+      "inputs": [7, 3],
+      "expected": 2333
+    },
+    {
+        "inputs": [1, 16],
+        "expected": 62
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "problem_id": 120814,
+  "title": "피자 나눠 먹기 (1)",
+  "testcases": [
+    {
+      "inputs": [7],
+      "expected": 1
+    },
+    {
+      "inputs": [1],
+      "expected": 1
+    },
+    {
+      "inputs": [15],
+      "expected": 3
+    }
+  ]
+}
