@@ -1,0 +1,14 @@
+{
+  "problem_id": 120831,
+  "title": "짝수의 합",
+  "testcases": [
+    {
+      "inputs": [10],
+      "expected": 30
+    },
+    {
+      "inputs": [4],
+      "expected": 6
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "problem_id": 120825,
+  "title": "문자 반복 출력하기",
+  "testcases": [
+    {
+      "inputs": ["hello", 3],
+      "expected": "hhheeellllllooo"
+    }
+  ]
+}

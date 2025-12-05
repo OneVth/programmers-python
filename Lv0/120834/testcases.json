@@ -1,0 +1,18 @@
+{
+  "problem_id": 120834,
+  "title": "외계행성의 나이",
+  "testcases": [
+    {
+      "inputs": [23],
+      "expected": "cd"
+    },
+    {
+      "inputs": [51],
+      "expected": "fb"
+    },
+    {
+      "inputs": [100],
+      "expected": "baa"
+    }
+  ]
+}

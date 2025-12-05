@@ -1,0 +1,14 @@
+{
+  "problem_id": 120820,
+  "title": "나이 출력",
+  "testcases": [
+    {
+      "inputs": [40],
+      "expected": 1983
+    },
+    {
+      "inputs": [23],
+      "expected": 2000
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "problem_id": 120830,
+  "title": "양꼬치",
+  "testcases": [
+    {
+      "inputs": [10, 3],
+      "expected": 124000
+    },
+    {
+      "inputs": [64, 6],
+      "expected": 768000
+    }
+  ]
+}

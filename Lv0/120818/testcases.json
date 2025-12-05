@@ -1,0 +1,14 @@
+{
+  "problem_id": 120818,
+  "title": "옷가게 할인 받기",
+  "testcases": [
+    {
+      "inputs": [150000],
+      "expected": 142500
+    },
+    {
+      "inputs": [580000],
+      "expected": 464000
+    }
+  ]
+}

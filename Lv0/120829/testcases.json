@@ -1,0 +1,18 @@
+{
+  "problem_id": 120829,
+  "title": "각도기",
+  "testcases": [
+    {
+      "inputs": [70],
+      "expected": 1
+    },
+    {
+      "inputs": [91],
+      "expected": 3
+    },
+    {
+      "inputs": [180],
+      "expected": 4
+    }
+  ]
+}

@@ -2,7 +2,9 @@
   "permissions": {
     "allow": [
       "mcp__serena__list_dir",
-      "mcp__sequential-thinking__sequentialthinking"
+      "mcp__sequential-thinking__sequentialthinking",
+      "mcp__playwright__browser_navigate",
+      "mcp__playwright__browser_close"
     ]
   },
   "outputStyle": "Learning"

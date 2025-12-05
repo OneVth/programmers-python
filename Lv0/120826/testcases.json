@@ -1,0 +1,14 @@
+{
+  "problem_id": 120826,
+  "title": "특정 문자 제거하기",
+  "testcases": [
+    {
+      "inputs": ["abcdef", "f"],
+      "expected": "abcde"
+    },
+    {
+      "inputs": ["BCBdbe", "B"],
+      "expected": "Cdbe"
+    }
+  ]
+}

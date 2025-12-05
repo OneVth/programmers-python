@@ -1,0 +1,14 @@
+{
+  "problem_id": 120822,
+  "title": "뒤집힌 문자열",
+  "testcases": [
+    {
+      "inputs": ["jaron"],
+      "expected": "noraj"
+    },
+    {
+      "inputs": ["bread"],
+      "expected": "daerb"
+    }
+  ]
+}
