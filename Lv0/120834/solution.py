@@ -49,4 +49,13 @@ def solution_v2(age: int) -> str:
     return "".join(chr(int(i) + 97) for i in str(age))
 
 
+def solution_v3(age: int) -> str:
+    """
+    [Approach] str.translate() + maketrans()
+    [Time] O(d)  [Space] O(1)
+    ✅ 내장 메서드 활용, 가장 Pythonic
+    """
+    return str(age).translate(str.maketrans("0123456789", "abcdefghij"))
+
+
 solution = solution_v2
