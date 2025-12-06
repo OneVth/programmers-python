@@ -85,6 +85,54 @@ import string
 - 유니코드 문자도 지원
 - 테이블에 없는 문자는 그대로 유지됨
 
+## 핵심 제한: key는 단일 문자만 가능!
+
+`str.maketrans(dict)`의 **key는 반드시 길이 1**이어야 합니다.
+
+```python
+# ✅ 가능: 1글자 → 1글자
+str.maketrans({"a": "x", "b": "y"})
+
+# ✅ 가능: 1글자 → 여러 글자
+str.maketrans({"a": ".-", "b": "-..."})
+
+# ❌ 불가능: 여러 글자 → 1글자
+str.maketrans({".-": "a", "-...": "b"})
+# ValueError: string keys in translate table must be of length 1
+```
+
+### 실패 예시: 모스부호 디코딩
+
+```python
+# 모스부호 → 알파벳 (여러 글자 → 1글자)
+morse_decode = {".-": "a", "-...": "b", ...}
+
+# ❌ 이건 안 됨!
+".- -...".translate(str.maketrans(morse_decode))
+
+# ✅ 대신 이렇게 해야 함
+"".join([morse_decode[code] for code in ".- -...".split(" ")])
+```
+
+### 성공 예시: 모스부호 인코딩
+
+```python
+# 알파벳 → 모스부호 (1글자 → 여러 글자)
+morse_encode = {"a": ".- ", "b": "-... ", ...}
+
+# ✅ 이건 가능!
+"ab".translate(str.maketrans(morse_encode))  # → ".- -... "
+```
+
+### 정리
+
+| 매핑 방향 | translate 사용 | 대안 |
+|----------|---------------|------|
+| 1글자 → 1글자 | ✅ 가능 | - |
+| 1글자 → 여러 글자 | ✅ 가능 | - |
+| 여러 글자 → 1글자 | ❌ 불가능 | split + dict + join |
+| 여러 글자 → 여러 글자 | ❌ 불가능 | replace 체인 또는 정규식 |
+
 ## 코딩테스트 활용
 
 - 문자 치환/인코딩 문제

@@ -1,0 +1,14 @@
+{
+  "problem_id": 120838,
+  "title": "모스부호 (1)",
+  "testcases": [
+    {
+      "inputs": [".... . .-.. .-.. ---"],
+      "expected": "hello"
+    },
+    {
+      "inputs": [".--. -.-- - .... --- -."],
+      "expected": "python"
+    }
+  ]
+}

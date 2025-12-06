@@ -1,0 +1,14 @@
+{
+  "problem_id": 120836,
+  "title": "순서쌍의 개수",
+  "testcases": [
+    {
+      "inputs": [20],
+      "expected": 6
+    },
+    {
+      "inputs": [100],
+      "expected": 9
+    }
+  ]
+}

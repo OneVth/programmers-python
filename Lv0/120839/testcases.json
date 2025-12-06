@@ -1,0 +1,14 @@
+{
+  "problem_id": 120839,
+  "title": "가위 바위 보",
+  "testcases": [
+    {
+      "inputs": ["2"],
+      "expected": "0"
+    },
+    {
+      "inputs": ["205"],
+      "expected": "052"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "problem_id": 120837,
+  "title": "개미 군단",
+  "testcases": [
+    {
+      "inputs": [23],
+      "expected": 5
+    },
+    {
+      "inputs": [24],
+      "expected": 6
+    },
+    {
+      "inputs": [999],
+      "expected": 201
+    }
+  ]
+}
