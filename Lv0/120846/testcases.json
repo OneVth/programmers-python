@@ -1,0 +1,14 @@
+{
+  "problem_id": 120846,
+  "title": "합성수 찾기",
+  "testcases": [
+    {
+      "inputs": [10],
+      "expected": 5
+    },
+    {
+      "inputs": [15],
+      "expected": 8
+    }
+  ]
+}

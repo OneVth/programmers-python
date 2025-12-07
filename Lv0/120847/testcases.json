@@ -1,0 +1,14 @@
+{
+  "problem_id": 120847,
+  "title": "최댓값 만들기(1)",
+  "testcases": [
+    {
+      "inputs": [[1, 2, 3, 4, 5]],
+      "expected": 20
+    },
+    {
+      "inputs": [[0, 31, 24, 10, 1, 9]],
+      "expected": 744
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "problem_id": 120845,
+  "title": "주사위의 개수",
+  "testcases": [
+    {
+      "inputs": [[1, 1, 1], 1],
+      "expected": 1
+    },
+    {
+      "inputs": [[10, 8, 6], 3],
+      "expected": 12
+    }
+  ]
+}

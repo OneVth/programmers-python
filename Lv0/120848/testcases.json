@@ -1,0 +1,14 @@
+{
+  "problem_id": 120848,
+  "title": "팩토리얼",
+  "testcases": [
+    {
+      "inputs": [3628800],
+      "expected": 10
+    },
+    {
+      "inputs": [7],
+      "expected": 3
+    }
+  ]
+}

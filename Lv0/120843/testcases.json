@@ -1,0 +1,18 @@
+{
+  "problem_id": 120843,
+  "title": "공 던지기",
+  "testcases": [
+    {
+      "inputs": [[1, 2, 3, 4], 2],
+      "expected": 3
+    },
+    {
+      "inputs": [[1, 2, 3, 4, 5, 6], 5],
+      "expected": 3
+    },
+    {
+      "inputs": [[1, 2, 3], 3],
+      "expected": 2
+    }
+  ]
+}
