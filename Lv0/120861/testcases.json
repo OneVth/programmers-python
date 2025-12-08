@@ -1,0 +1,14 @@
+{
+  "title": "캐릭터의 좌표",
+  "problem_id": "120861",
+  "testcases": [
+    {
+      "inputs": [["left", "right", "up", "right", "right"], [11, 11]],
+      "expected": [2, 1]
+    },
+    {
+      "inputs": [["down", "down", "down", "down", "down"], [7, 9]],
+      "expected": [0, -4]
+    }
+  ]
+}

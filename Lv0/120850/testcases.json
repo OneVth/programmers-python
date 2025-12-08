@@ -1,0 +1,18 @@
+{
+  "title": "문자열 정렬하기 (1)",
+  "problem_id": "120850",
+  "testcases": [
+    {
+      "inputs": ["hi12392"],
+      "expected": [1, 2, 2, 3, 9]
+    },
+    {
+      "inputs": ["p2o4i8gj2"],
+      "expected": [2, 2, 4, 8]
+    },
+    {
+      "inputs": ["abcde0"],
+      "expected": [0]
+    }
+  ]
+}

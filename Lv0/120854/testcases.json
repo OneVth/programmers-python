@@ -1,0 +1,14 @@
+{
+  "title": "배열 원소의 길이",
+  "problem_id": "120854",
+  "testcases": [
+    {
+      "inputs": [["We", "are", "the", "world!"]],
+      "expected": [2, 3, 3, 6]
+    },
+    {
+      "inputs": [["I", "Love", "Programmers."]],
+      "expected": [1, 4, 12]
+    }
+  ]
+}

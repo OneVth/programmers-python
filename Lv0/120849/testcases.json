@@ -1,0 +1,14 @@
+{
+  "title": "모음 제거",
+  "problem_id": "120849",
+  "testcases": [
+    {
+      "inputs": ["bus"],
+      "expected": "bs"
+    },
+    {
+      "inputs": ["nice to meet you"],
+      "expected": "nc t mt y"
+    }
+  ]
+}

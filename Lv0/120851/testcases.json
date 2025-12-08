@@ -1,0 +1,14 @@
+{
+  "title": "숨어있는 숫자의 덧셈 (1)",
+  "problem_id": "120851",
+  "testcases": [
+    {
+      "inputs": ["aAb1B2cC34oOp"],
+      "expected": 10
+    },
+    {
+      "inputs": ["1a2b3c4d123"],
+      "expected": 16
+    }
+  ]
+}

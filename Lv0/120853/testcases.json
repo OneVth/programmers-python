@@ -1,0 +1,26 @@
+{
+  "title": "컨트롤 제트",
+  "problem_id": "120853",
+  "testcases": [
+    {
+      "inputs": ["1 2 Z 3"],
+      "expected": 4
+    },
+    {
+      "inputs": ["10 20 30 40"],
+      "expected": 100
+    },
+    {
+      "inputs": ["10 Z 20 Z 1"],
+      "expected": 1
+    },
+    {
+      "inputs": ["10 Z 20 Z"],
+      "expected": 0
+    },
+    {
+      "inputs": ["-1 -2 -3 Z"],
+      "expected": -3
+    }
+  ]
+}

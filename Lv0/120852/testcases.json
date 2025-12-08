@@ -1,0 +1,18 @@
+{
+  "title": "소인수분해",
+  "problem_id": "120852",
+  "testcases": [
+    {
+      "inputs": [12],
+      "expected": [2, 3]
+    },
+    {
+      "inputs": [17],
+      "expected": [17]
+    },
+    {
+      "inputs": [420],
+      "expected": [2, 3, 5, 7]
+    }
+  ]
+}
