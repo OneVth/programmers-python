@@ -1,0 +1,14 @@
+{
+  "problem_id": 120863,
+  "title": "다항식 더하기",
+  "testcases": [
+    {
+      "inputs": ["3x + 7 + x"],
+      "expected": "4x + 7"
+    },
+    {
+      "inputs": ["x + x + x"],
+      "expected": "3x"
+    }
+  ]
+}
