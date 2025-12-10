@@ -3,9 +3,11 @@
 
 사용법:
     python runner.py Lv0/120583
+    python runner.py Lv0/120583 -f review_1.py
 """
 import sys
 import json
+import argparse
 import importlib.util
 from pathlib import Path
 
@@ -13,9 +15,11 @@ from pathlib import Path
 sys.stdout.reconfigure(encoding='utf-8')
 
 
-def load_solution(problem_path: Path):
-    """solution.py에서 solution 함수를 동적으로 로드"""
-    solution_file = problem_path / "solution.py"
+def load_solution(problem_path: Path, filename: str = "solution.py"):
+    """solution 파일에서 solution 함수를 동적으로 로드"""
+    solution_file = problem_path / filename
+    if not solution_file.exists():
+        raise FileNotFoundError(f"파일을 찾을 수 없습니다: {solution_file}")
     spec = importlib.util.spec_from_file_location("solution", solution_file)
     module = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(module)
@@ -39,13 +43,15 @@ def run_single_test(solution_fn, inputs: list, expected):
         return {"passed": False, "result": None, "expected": expected, "error": str(e)}
 
 
-def run_all_tests(problem_path: Path):
+def run_all_tests(problem_path: Path, filename: str = "solution.py"):
     """모든 테스트 케이스 실행"""
-    solution_fn = load_solution(problem_path)
+    solution_fn = load_solution(problem_path, filename)
     data = load_testcases(problem_path)
 
     print(f"\n{'='*50}")
     print(f"📝 {data.get('title', '제목 없음')} (#{data['problem_id']})")
+    if filename != "solution.py":
+        print(f"📄 파일: {filename}")
     print(f"{'='*50}\n")
 
     passed = 0
@@ -73,15 +79,16 @@ def run_all_tests(problem_path: Path):
 
 
 if __name__ == "__main__":
-    if len(sys.argv) < 2:
-        print("사용법: python runner.py <문제경로>")
-        print("예시: python runner.py Lv0/120583")
-        sys.exit(1)
+    parser = argparse.ArgumentParser(description="프로그래머스 문제 테스트 러너")
+    parser.add_argument("problem_path", help="문제 경로 (예: Lv0/120583)")
+    parser.add_argument("-f", "--file", default="solution.py",
+                        help="실행할 솔루션 파일 (기본: solution.py)")
+    args = parser.parse_args()
 
-    problem_path = Path(sys.argv[1])
+    problem_path = Path(args.problem_path)
 
     if not problem_path.exists():
         print(f"❌ 경로를 찾을 수 없습니다: {problem_path}")
         sys.exit(1)
 
-    run_all_tests(problem_path)
+    run_all_tests(problem_path, args.file)
