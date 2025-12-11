@@ -1,0 +1,18 @@
+{
+  "problem_id": 120868,
+  "title": "삼각형의 완성조건 (2)",
+  "testcases": [
+    {
+      "inputs": [[1, 2]],
+      "expected": 1
+    },
+    {
+      "inputs": [[3, 6]],
+      "expected": 5
+    },
+    {
+      "inputs": [[11, 7]],
+      "expected": 13
+    }
+  ]
+}

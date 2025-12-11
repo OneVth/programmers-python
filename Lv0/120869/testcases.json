@@ -1,0 +1,18 @@
+{
+  "problem_id": 120869,
+  "title": "외계어 사전",
+  "testcases": [
+    {
+      "inputs": [["p", "o", "s"], ["sod", "eocd", "qixm", "adio", "soo"]],
+      "expected": 2
+    },
+    {
+      "inputs": [["z", "d", "x"], ["def", "dww", "dzx", "loveaw"]],
+      "expected": 1
+    },
+    {
+      "inputs": [["s", "o", "m", "d"], ["moos", "dzx", "smm", "sunmmo", "som"]],
+      "expected": 2
+    }
+  ]
+}
