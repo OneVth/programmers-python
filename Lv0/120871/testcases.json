@@ -1,0 +1,14 @@
+{
+  "problem_id": 120871,
+  "title": "저주의 숫자 3",
+  "testcases": [
+    {
+      "inputs": [15],
+      "expected": 25
+    },
+    {
+      "inputs": [40],
+      "expected": 76
+    }
+  ]
+}

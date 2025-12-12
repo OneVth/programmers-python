@@ -1,0 +1,18 @@
+{
+  "problem_id": 120878,
+  "title": "유한소수 판별하기",
+  "testcases": [
+    {
+      "inputs": [7, 20],
+      "expected": 1
+    },
+    {
+      "inputs": [11, 22],
+      "expected": 1
+    },
+    {
+      "inputs": [12, 21],
+      "expected": 2
+    }
+  ]
+}
