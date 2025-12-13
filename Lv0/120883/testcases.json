@@ -1,0 +1,18 @@
+{
+  "problem_id": 120883,
+  "title": "로그인 성공?",
+  "testcases": [
+    {
+      "inputs": [["meosseugi", "1234"], [["rardss", "123"], ["yyoom", "1234"], ["meosseugi", "1234"]]],
+      "expected": "login"
+    },
+    {
+      "inputs": [["programmer01", "15789"], [["programmer02", "111111"], ["programmer00", "134"], ["programmer01", "1145"]]],
+      "expected": "wrong pw"
+    },
+    {
+      "inputs": [["rabbit04", "98761"], [["jaja11", "98761"], ["krong0313", "29440"], ["rabbit00", "111333"]]],
+      "expected": "fail"
+    }
+  ]
+}

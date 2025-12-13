@@ -1,0 +1,14 @@
+{
+  "problem_id": 120885,
+  "title": "이진수 더하기",
+  "testcases": [
+    {
+      "inputs": ["10", "11"],
+      "expected": "101"
+    },
+    {
+      "inputs": ["1001", "1111"],
+      "expected": "11000"
+    }
+  ]
+}

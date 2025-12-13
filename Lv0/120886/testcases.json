@@ -1,0 +1,14 @@
+{
+  "problem_id": 120886,
+  "title": "A로 B 만들기",
+  "testcases": [
+    {
+      "inputs": ["olleh", "hello"],
+      "expected": 1
+    },
+    {
+      "inputs": ["allpe", "apple"],
+      "expected": 0
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "problem_id": 120884,
+  "title": "치킨 쿠폰",
+  "testcases": [
+    {
+      "inputs": [100],
+      "expected": 11
+    },
+    {
+      "inputs": [1081],
+      "expected": 120
+    }
+  ]
+}

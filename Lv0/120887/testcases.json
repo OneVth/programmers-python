@@ -1,0 +1,18 @@
+{
+  "problem_id": 120887,
+  "title": "k의 개수",
+  "testcases": [
+    {
+      "inputs": [1, 13, 1],
+      "expected": 6
+    },
+    {
+      "inputs": [10, 50, 5],
+      "expected": 5
+    },
+    {
+      "inputs": [3, 10, 2],
+      "expected": 0
+    }
+  ]
+}
