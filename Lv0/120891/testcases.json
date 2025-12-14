@@ -1,0 +1,14 @@
+{
+  "problem_id": 120891,
+  "title": "369게임",
+  "testcases": [
+    {
+      "inputs": [3],
+      "expected": 1
+    },
+    {
+      "inputs": [29423],
+      "expected": 2
+    }
+  ]
+}

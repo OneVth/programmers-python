@@ -1,0 +1,14 @@
+{
+  "problem_id": 120895,
+  "title": "인덱스 바꾸기",
+  "testcases": [
+    {
+      "inputs": ["hello", 1, 2],
+      "expected": "hlelo"
+    },
+    {
+      "inputs": ["I love you", 3, 6],
+      "expected": "I l veoyou"
+    }
+  ]
+}

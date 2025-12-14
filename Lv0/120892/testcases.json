@@ -1,0 +1,14 @@
+{
+  "problem_id": 120892,
+  "title": "암호 해독",
+  "testcases": [
+    {
+      "inputs": ["dfjardstddetckdaccccdegk", 4],
+      "expected": "attack"
+    },
+    {
+      "inputs": ["pfqallllabwaoclk", 2],
+      "expected": "fallback"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "problem_id": 120894,
+  "title": "영어가 싫어요",
+  "testcases": [
+    {
+      "inputs": ["onetwothreefourfivesixseveneightnine"],
+      "expected": 123456789
+    },
+    {
+      "inputs": ["onefourzerosixseven"],
+      "expected": 14067
+    }
+  ]
+}

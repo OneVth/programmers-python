@@ -1,0 +1,14 @@
+{
+  "problem_id": 120888,
+  "title": "중복된 문자 제거",
+  "testcases": [
+    {
+      "inputs": ["people"],
+      "expected": "peol"
+    },
+    {
+      "inputs": ["We are the world"],
+      "expected": "We arthwold"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "problem_id": 120893,
+  "title": "대문자와 소문자",
+  "testcases": [
+    {
+      "inputs": ["cccCCC"],
+      "expected": "CCCccc"
+    },
+    {
+      "inputs": ["abCdEfghIJ"],
+      "expected": "ABcDeFGHij"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "problem_id": 120896,
+  "title": "한 번만 등장한 문자",
+  "testcases": [
+    {
+      "inputs": ["abcabcadc"],
+      "expected": "d"
+    },
+    {
+      "inputs": ["abdc"],
+      "expected": "abcd"
+    },
+    {
+      "inputs": ["hello"],
+      "expected": "eho"
+    }
+  ]
+}
