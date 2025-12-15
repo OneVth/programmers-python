@@ -1,0 +1,14 @@
+{
+  "problem_id": 120906,
+  "title": "자릿수 더하기",
+  "testcases": [
+    {
+      "inputs": [1234],
+      "expected": 10
+    },
+    {
+      "inputs": [930211],
+      "expected": 16
+    }
+  ]
+}

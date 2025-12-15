@@ -1,0 +1,14 @@
+{
+  "problem_id": 120909,
+  "title": "제곱수 판별하기",
+  "testcases": [
+    {
+      "inputs": [144],
+      "expected": 1
+    },
+    {
+      "inputs": [976],
+      "expected": 2
+    }
+  ]
+}

@@ -267,3 +267,135 @@ empty = set()   # ✅ 빈 set
 - [[collections-counter]] - 요소별 개수가 필요할 때
 - [[dict-insertion-order]] - 순서 유지 자료구조
 - [[time-complexity-guide]] - 시간 복잡도 비교
+
+---
+
+## 내부 동작 원리
+
+### Set의 구조: 해시 테이블
+
+Python의 `set`은 **해시 테이블(Hash Table)** 기반입니다.
+
+```
+set({'a', 'b', 'c'}) 내부 구조:
+
+Index:  [0]  [1]  [2]  [3]  [4]  [5]  [6]  [7]
+Data:   [ ]  [a]  [ ]  [c]  [ ]  [b]  [ ]  [ ]
+              ↑         ↑         ↑
+         hash('a')%8  hash('c')%8  hash('b')%8
+```
+
+- **원소 추가**: `hash(x) % table_size` → 해당 인덱스에 저장
+- **원소 탐색**: 같은 해시 계산 → **O(1)**
+
+### 교집합 (`&`) 알고리즘
+
+```python
+s1 = {'a', 'b', 'c'}      # 크기 3
+s2 = {'b', 'c', 'd', 'e'} # 크기 4
+
+result = s1 & s2  # {'b', 'c'}
+```
+
+**CPython 내부 구현**:
+```python
+def intersection(s1, s2):
+    # 1. 작은 집합을 기준으로 순회 (최적화!)
+    if len(s1) > len(s2):
+        s1, s2 = s2, s1
+
+    result = set()
+    # 2. 작은 집합의 각 원소가 큰 집합에 있는지 확인
+    for x in s1:           # O(n) - 작은 집합 순회
+        if x in s2:        # O(1) - 해시 탐색
+            result.add(x)  # O(1)
+
+    return result
+```
+
+**시간복잡도**: **O(min(n, m))** - 작은 집합 크기에 비례
+
+### 합집합 (`|`) 알고리즘
+
+```python
+s1 = {'a', 'b', 'c'}
+s2 = {'b', 'c', 'd', 'e'}
+
+result = s1 | s2  # {'a', 'b', 'c', 'd', 'e'}
+```
+
+**CPython 내부 구현**:
+```python
+def union(s1, s2):
+    # 1. 큰 집합을 복사 (최적화!)
+    if len(s1) < len(s2):
+        s1, s2 = s2, s1
+
+    result = s1.copy()     # O(n)
+    # 2. 작은 집합의 원소들을 추가
+    for x in s2:           # O(m)
+        result.add(x)      # O(1) - 중복이면 무시됨
+
+    return result
+```
+
+**시간복잡도**: **O(n + m)**
+
+### 차집합 (`-`) 알고리즘
+
+```python
+s1 = {'a', 'b', 'c'}
+s2 = {'b', 'c', 'd'}
+
+result = s1 - s2  # {'a'}
+```
+
+**CPython 내부 구현**:
+```python
+def difference(s1, s2):
+    result = set()
+    for x in s1:           # O(n)
+        if x not in s2:    # O(1)
+            result.add(x)
+    return result
+```
+
+**시간복잡도**: **O(n)** - 첫 번째 집합 크기에 비례
+
+### 대칭차집합 (`^`) 알고리즘
+
+```python
+s1 = {'a', 'b', 'c'}
+s2 = {'b', 'c', 'd'}
+
+result = s1 ^ s2  # {'a', 'd'} - 한쪽에만 있는 원소
+```
+
+**원리**: `(s1 - s2) | (s2 - s1)` 또는 `(s1 | s2) - (s1 & s2)`
+
+**시간복잡도**: **O(n + m)**
+
+### 리스트 vs Set 비교
+
+```python
+# 리스트로 교집합 (느림)
+def list_intersection(l1, l2):
+    result = []
+    for x in l1:        # O(n)
+        if x in l2:     # O(m) - 선형 탐색!
+            result.append(x)
+    return result
+# 시간복잡도: O(n × m)
+
+# Set 교집합 (빠름)
+set(l1) & set(l2)
+# 시간복잡도: O(n + m) - 훨씬 빠름!
+```
+
+| 연산 | 리스트 | Set |
+|------|--------|-----|
+| `x in` 탐색 | O(n) | O(1) |
+| 교집합 | O(n × m) | O(min(n,m)) |
+| 합집합 | O(n × m) | O(n + m) |
+
+*관련 문제: #120903 배열의 유사도*

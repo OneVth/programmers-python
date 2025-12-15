@@ -1,0 +1,18 @@
+{
+  "problem_id": 120902,
+  "title": "문자열 계산하기",
+  "testcases": [
+    {
+      "inputs": ["3 + 4"],
+      "expected": 7
+    },
+    {
+      "inputs": ["3 + 4 + 5"],
+      "expected": 12
+    },
+    {
+      "inputs": ["3 - 4 + 5"],
+      "expected": 4
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "problem_id": 120910,
+  "title": "세균 증식",
+  "testcases": [
+    {
+      "inputs": [2, 10],
+      "expected": 2048
+    },
+    {
+      "inputs": [7, 15],
+      "expected": 229376
+    }
+  ]
+}

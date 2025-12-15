@@ -1,0 +1,14 @@
+{
+  "problem_id": 120899,
+  "title": "가장 큰 수 찾기",
+  "testcases": [
+    {
+      "inputs": [[1, 8, 3]],
+      "expected": [8, 1]
+    },
+    {
+      "inputs": [[9, 10, 11, 8]],
+      "expected": [11, 2]
+    }
+  ]
+}

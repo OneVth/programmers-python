@@ -1,0 +1,18 @@
+{
+  "problem_id": 120911,
+  "title": "문자열 정렬하기 (2)",
+  "testcases": [
+    {
+      "inputs": ["Bcad"],
+      "expected": "abcd"
+    },
+    {
+      "inputs": ["heLLo"],
+      "expected": "ehllo"
+    },
+    {
+      "inputs": ["Python"],
+      "expected": "hnopty"
+    }
+  ]
+}

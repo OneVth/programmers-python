@@ -1,0 +1,14 @@
+{
+  "problem_id": 120898,
+  "title": "편지",
+  "testcases": [
+    {
+      "inputs": ["happy birthday!"],
+      "expected": 30
+    },
+    {
+      "inputs": ["I love you~"],
+      "expected": 22
+    }
+  ]
+}

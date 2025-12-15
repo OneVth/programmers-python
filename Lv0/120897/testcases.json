@@ -1,0 +1,14 @@
+{
+  "problem_id": 120897,
+  "title": "약수 구하기",
+  "testcases": [
+    {
+      "inputs": [24],
+      "expected": [1, 2, 3, 4, 6, 8, 12, 24]
+    },
+    {
+      "inputs": [29],
+      "expected": [1, 29]
+    }
+  ]
+}

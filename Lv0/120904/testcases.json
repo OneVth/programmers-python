@@ -1,0 +1,18 @@
+{
+  "problem_id": 120904,
+  "title": "숫자 찾기",
+  "testcases": [
+    {
+      "inputs": [29183, 1],
+      "expected": 3
+    },
+    {
+      "inputs": [232443, 4],
+      "expected": 4
+    },
+    {
+      "inputs": [123456, 7],
+      "expected": -1
+    }
+  ]
+}

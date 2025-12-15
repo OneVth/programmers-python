@@ -1,0 +1,14 @@
+{
+  "problem_id": 120903,
+  "title": "배열의 유사도",
+  "testcases": [
+    {
+      "inputs": [["a", "b", "c"], ["com", "b", "d", "p", "c"]],
+      "expected": 2
+    },
+    {
+      "inputs": [["n", "omg"], ["m", "dot"]],
+      "expected": 0
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "problem_id": 120908,
+  "title": "문자열안에 문자열",
+  "testcases": [
+    {
+      "inputs": ["ab6CDE443fgh22iJKlmn1o", "6CD"],
+      "expected": 1
+    },
+    {
+      "inputs": ["ppprrrogrammers", "pppp"],
+      "expected": 2
+    },
+    {
+      "inputs": ["AbcAbcA", "AAA"],
+      "expected": 2
+    }
+  ]
+}
