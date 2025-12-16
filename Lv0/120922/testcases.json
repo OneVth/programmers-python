@@ -1,0 +1,18 @@
+{
+  "problem_id": 120922,
+  "title": "종이 자르기",
+  "testcases": [
+    {
+      "inputs": [2, 2],
+      "expected": 3
+    },
+    {
+      "inputs": [2, 5],
+      "expected": 9
+    },
+    {
+      "inputs": [1, 1],
+      "expected": 0
+    }
+  ]
+}

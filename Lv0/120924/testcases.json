@@ -1,0 +1,14 @@
+{
+  "problem_id": 120924,
+  "title": "다음에 올 숫자",
+  "testcases": [
+    {
+      "inputs": [[1, 2, 3, 4]],
+      "expected": 5
+    },
+    {
+      "inputs": [[2, 4, 8]],
+      "expected": 16
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "problem_id": 120921,
+  "title": "문자열 밀기",
+  "testcases": [
+    {
+      "inputs": ["hello", "ohell"],
+      "expected": 1
+    },
+    {
+      "inputs": ["apple", "elppa"],
+      "expected": -1
+    },
+    {
+      "inputs": ["atat", "tata"],
+      "expected": 1
+    },
+    {
+      "inputs": ["abc", "abc"],
+      "expected": 0
+    }
+  ]
+}

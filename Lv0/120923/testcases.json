@@ -1,0 +1,22 @@
+{
+  "problem_id": 120923,
+  "title": "연속된 수의 합",
+  "testcases": [
+    {
+      "inputs": [3, 12],
+      "expected": [3, 4, 5]
+    },
+    {
+      "inputs": [5, 15],
+      "expected": [1, 2, 3, 4, 5]
+    },
+    {
+      "inputs": [4, 14],
+      "expected": [2, 3, 4, 5]
+    },
+    {
+      "inputs": [5, 5],
+      "expected": [-1, 0, 1, 2, 3]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "problem_id": 120956,
+  "title": "옹알이 (1)",
+  "testcases": [
+    {
+      "inputs": [["aya", "yee", "u", "maa", "wyeoo"]],
+      "expected": 1
+    },
+    {
+      "inputs": [["ayaye", "uuuma", "ye", "yemawoo", "ayaa"]],
+      "expected": 3
+    }
+  ]
+}

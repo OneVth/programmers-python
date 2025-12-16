@@ -1,0 +1,14 @@
+{
+  "problem_id": 120912,
+  "title": "7의 개수",
+  "testcases": [
+    {
+      "inputs": [[7, 77, 17]],
+      "expected": 4
+    },
+    {
+      "inputs": [[10, 29]],
+      "expected": 0
+    }
+  ]
+}

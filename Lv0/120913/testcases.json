@@ -1,0 +1,14 @@
+{
+  "problem_id": 120913,
+  "title": "잘라서 배열로 저장하기",
+  "testcases": [
+    {
+      "inputs": ["abc1Addfggg4556b", 6],
+      "expected": ["abc1Ad", "dfggg4", "556b"]
+    },
+    {
+      "inputs": ["abcdef123", 3],
+      "expected": ["abc", "def", "123"]
+    }
+  ]
+}
