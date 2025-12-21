@@ -1,0 +1,31 @@
+"""
+프로그래머스 Lv0 #120891 - 369게임
+https://school.programmers.co.kr/learn/courses/30/lessons/120891
+
+[복습] 1차 - 2025-12-17
+
+[문제]
+머쓱이는 친구들과 369게임을 하고 있습니다.
+369게임은 1부터 숫자를 하나씩 대며 3, 6, 9가 들어가는 숫자는
+숫자 대신 3, 6, 9의 개수만큼 박수를 치는 게임입니다.
+
+머쓱이가 말해야하는 숫자 order가 매개변수로 주어질 때,
+머쓱이가 쳐야할 박수 횟수를 return 하도록 solution 함수를 완성해보세요.
+
+[제한]
+- 1 ≤ order ≤ 1,000,000
+"""
+
+
+def solution_v1(order: int) -> int:
+    """
+    [Approach] 문자열 변환 후 3, 6, 9 문자 카운트
+               - 숫자를 문자열로 변환하여 각 자릿수 순회
+               - 3, 6, 9 문자가 포함되어 있는지 확인
+    [Time] O(d) - d는 자릿수 (최대 7)
+    [Space] O(d) - 문자열 변환
+    """
+    return sum(c in "369" for c in str(order))
+
+
+solution = solution_v1
