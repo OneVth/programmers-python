@@ -1,0 +1,14 @@
+{
+  "problem_id": 181834,
+  "title": "l로 만들기",
+  "testcases": [
+    {
+      "inputs": ["abcdevwxyz"],
+      "expected": "lllllvwxyz"
+    },
+    {
+      "inputs": ["jjnnllkkmm"],
+      "expected": "llnnllllmm"
+    }
+  ]
+}
