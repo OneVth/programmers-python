@@ -1,0 +1,20 @@
+{
+  "problem_id": 181840,
+  "title": "정수 찾기",
+  "testcases": [
+    {
+      "inputs": [
+        [1, 2, 3, 4, 5],
+        3
+      ],
+      "expected": 1
+    },
+    {
+      "inputs": [
+        [15, 98, 23, 2, 15],
+        20
+      ],
+      "expected": 0
+    }
+  ]
+}

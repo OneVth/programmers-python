@@ -1,0 +1,14 @@
+{
+  "problem_id": 181843,
+  "title": "부분 문자열인지 확인하기",
+  "testcases": [
+    {
+      "inputs": ["banana", "ana"],
+      "expected": 1
+    },
+    {
+      "inputs": ["banana", "wxyz"],
+      "expected": 0
+    }
+  ]
+}

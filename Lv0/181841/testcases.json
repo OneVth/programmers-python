@@ -1,0 +1,20 @@
+{
+  "problem_id": 181841,
+  "title": "꼬리 문자열",
+  "testcases": [
+    {
+      "inputs": [
+        ["abc", "def", "ghi"],
+        "ef"
+      ],
+      "expected": "abcghi"
+    },
+    {
+      "inputs": [
+        ["abc", "bbc", "cbc"],
+        "c"
+      ],
+      "expected": ""
+    }
+  ]
+}

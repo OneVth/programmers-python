@@ -1,0 +1,18 @@
+{
+  "problem_id": 181837,
+  "title": "커피 심부름",
+  "testcases": [
+    {
+      "inputs": [
+        ["cafelatte", "americanoice", "hotcafelatte", "anything"]
+      ],
+      "expected": 19000
+    },
+    {
+      "inputs": [
+        ["americanoice", "americano", "iceamericano"]
+      ],
+      "expected": 13500
+    }
+  ]
+}

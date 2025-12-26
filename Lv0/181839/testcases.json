@@ -1,0 +1,18 @@
+{
+  "problem_id": 181839,
+  "title": "주사위 게임 1",
+  "testcases": [
+    {
+      "inputs": [3, 5],
+      "expected": 34
+    },
+    {
+      "inputs": [6, 1],
+      "expected": 14
+    },
+    {
+      "inputs": [2, 4],
+      "expected": 2
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "problem_id": 181842,
+  "title": "부분 문자열",
+  "testcases": [
+    {
+      "inputs": ["abc", "aabcc"],
+      "expected": 1
+    },
+    {
+      "inputs": ["tbt", "tbbttb"],
+      "expected": 0
+    }
+  ]
+}
