@@ -1,0 +1,14 @@
+{
+  "problem_id": 181849,
+  "title": "문자열 정수의 합",
+  "testcases": [
+    {
+      "inputs": ["123456789"],
+      "expected": 45
+    },
+    {
+      "inputs": ["1000000"],
+      "expected": 1
+    }
+  ]
+}

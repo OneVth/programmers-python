@@ -1,0 +1,14 @@
+{
+  "problem_id": 181847,
+  "title": "0 떼기",
+  "testcases": [
+    {
+      "inputs": ["0010"],
+      "expected": "10"
+    },
+    {
+      "inputs": ["854020"],
+      "expected": "854020"
+    }
+  ]
+}

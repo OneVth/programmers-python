@@ -1,0 +1,14 @@
+{
+  "problem_id": 181848,
+  "title": "문자열을 정수로 변환하기",
+  "testcases": [
+    {
+      "inputs": ["10"],
+      "expected": 10
+    },
+    {
+      "inputs": ["8542"],
+      "expected": 8542
+    }
+  ]
+}

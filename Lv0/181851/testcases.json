@@ -1,0 +1,18 @@
+{
+  "problem_id": 181851,
+  "title": "전국 대회 선발 고사",
+  "testcases": [
+    {
+      "inputs": [[3, 7, 2, 5, 4, 6, 1], [false, true, true, true, true, false, false]],
+      "expected": 20403
+    },
+    {
+      "inputs": [[1, 2, 3], [true, true, true]],
+      "expected": 102
+    },
+    {
+      "inputs": [[6, 1, 5, 2, 3, 4], [true, false, true, false, false, true]],
+      "expected": 50200
+    }
+  ]
+}

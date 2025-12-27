@@ -1,0 +1,14 @@
+{
+  "problem_id": 181850,
+  "title": "정수 부분",
+  "testcases": [
+    {
+      "inputs": [1.42],
+      "expected": 1
+    },
+    {
+      "inputs": [69.32],
+      "expected": 69
+    }
+  ]
+}
