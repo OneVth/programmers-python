@@ -143,6 +143,53 @@ compare_dates([2021, 12, 29], [2021, 12, 28])  # 0
 # [3, 4] < [3, 5] → True (3==3, 4 < 5)
 ```
 
+## cmp 패턴: 비교 결과를 -1, 0, 1로 반환
+
+Python 2의 `cmp()` 함수가 Python 3에서 제거되었지만, 다음 패턴으로 동일한 결과를 얻을 수 있습니다:
+
+```python
+# cmp 패턴: (a > b) - (a < b)
+def cmp(a, b):
+    return (a > b) - (a < b)
+
+# 동작 원리 (bool은 int로 자동 변환)
+# a > b: True - False  = 1 - 0 = 1
+# a < b: False - True  = 0 - 1 = -1
+# a == b: False - False = 0 - 0 = 0
+```
+
+### 실전 예시: 배열 비교하기 문제
+
+```python
+# 문제: 길이 우선 비교, 같으면 합계 비교
+# arr1이 크면 1, arr2가 크면 -1, 같으면 0
+
+def solution(arr1: list[int], arr2: list[int]) -> int:
+    t1 = (len(arr1), sum(arr1))
+    t2 = (len(arr2), sum(arr2))
+    return (t1 > t2) - (t1 < t2)
+
+# 튜플 비교가 문제 조건과 정확히 일치!
+# 1. 첫 요소(길이)가 다르면 → 길이로 결정
+# 2. 첫 요소 같으면 → 두 번째(합계)로 결정
+```
+
+### 조건문 방식 vs cmp 패턴
+
+```python
+# 조건문 방식 (명시적이지만 장황함)
+def compare_v1(a, b):
+    if a > b:
+        return 1
+    elif a < b:
+        return -1
+    return 0
+
+# cmp 패턴 (간결함)
+def compare_v2(a, b):
+    return (a > b) - (a < b)
+```
+
 ## 요약
 
 | 상황 | 결과 |
