@@ -1,0 +1,18 @@
+{
+  "problem_id": 181859,
+  "title": "배열 만들기 6",
+  "testcases": [
+    {
+      "inputs": [[0, 1, 1, 1, 0]],
+      "expected": [0, 1, 0]
+    },
+    {
+      "inputs": [[0, 1, 0, 1, 0]],
+      "expected": [0, 1, 0, 1, 0]
+    },
+    {
+      "inputs": [[0, 1, 1, 0]],
+      "expected": [-1]
+    }
+  ]
+}

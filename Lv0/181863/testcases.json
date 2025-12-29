@@ -1,0 +1,22 @@
+{
+  "problem_id": 181863,
+  "title": "rny_string",
+  "testcases": [
+    {
+      "inputs": ["masterpiece"],
+      "expected": "rnasterpiece"
+    },
+    {
+      "inputs": ["programmers"],
+      "expected": "prograrnrners"
+    },
+    {
+      "inputs": ["jerry"],
+      "expected": "jerry"
+    },
+    {
+      "inputs": ["burn"],
+      "expected": "burn"
+    }
+  ]
+}

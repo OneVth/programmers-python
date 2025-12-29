@@ -1,0 +1,18 @@
+{
+  "problem_id": 181862,
+  "title": "세 개의 구분자",
+  "testcases": [
+    {
+      "inputs": ["baconlettucetomato"],
+      "expected": ["onlettu", "etom", "to"]
+    },
+    {
+      "inputs": ["abcd"],
+      "expected": ["d"]
+    },
+    {
+      "inputs": ["cabab"],
+      "expected": ["EMPTY"]
+    }
+  ]
+}
