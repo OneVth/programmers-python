@@ -1,0 +1,14 @@
+{
+  "problem_id": 181864,
+  "title": "문자열 바꿔서 찾기",
+  "testcases": [
+    {
+      "inputs": ["ABBAA", "AABB"],
+      "expected": 1
+    },
+    {
+      "inputs": ["ABAB", "ABAB"],
+      "expected": 0
+    }
+  ]
+}

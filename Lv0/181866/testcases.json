@@ -1,0 +1,14 @@
+{
+  "problem_id": 181866,
+  "title": "문자열 잘라서 정렬하기",
+  "testcases": [
+    {
+      "inputs": ["axbxcxdx"],
+      "expected": ["a", "b", "c", "d"]
+    },
+    {
+      "inputs": ["dxccxbbbxaaaa"],
+      "expected": ["aaaa", "bbb", "cc", "d"]
+    }
+  ]
+}

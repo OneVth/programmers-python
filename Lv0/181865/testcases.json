@@ -1,0 +1,18 @@
+{
+  "problem_id": 181865,
+  "title": "간단한 식 계산하기",
+  "testcases": [
+    {
+      "inputs": ["43 + 12"],
+      "expected": 55
+    },
+    {
+      "inputs": ["0 - 7777"],
+      "expected": -7777
+    },
+    {
+      "inputs": ["40000 * 40000"],
+      "expected": 1600000000
+    }
+  ]
+}
