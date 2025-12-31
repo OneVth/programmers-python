@@ -1,0 +1,14 @@
+{
+  "problem_id": 181867,
+  "title": "x 사이의 개수",
+  "testcases": [
+    {
+      "inputs": ["oxooxoxxox"],
+      "expected": [1, 2, 1, 0, 1, 0]
+    },
+    {
+      "inputs": ["xabcxdefxghi"],
+      "expected": [0, 3, 3, 3]
+    }
+  ]
+}
