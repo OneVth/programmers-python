@@ -1,0 +1,14 @@
+{
+  "problem_id": 181868,
+  "title": "공백으로 구분하기 2",
+  "testcases": [
+    {
+      "inputs": [" i love you"],
+      "expected": ["i", "love", "you"]
+    },
+    {
+      "inputs": [" programmers "],
+      "expected": ["programmers"]
+    }
+  ]
+}
