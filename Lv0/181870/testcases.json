@@ -1,0 +1,14 @@
+{
+  "problem_id": 181870,
+  "title": "ad 제거하기",
+  "testcases": [
+    {
+      "inputs": [["and", "notad", "abcd"]],
+      "expected": ["and", "abcd"]
+    },
+    {
+      "inputs": [["there", "are", "no", "a", "ds"]],
+      "expected": ["there", "are", "no", "a", "ds"]
+    }
+  ]
+}

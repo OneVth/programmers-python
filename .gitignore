@@ -11,3 +11,6 @@ wheels/
 
 # Serena mcp
 .serena
+
+# Playwright MCP
+.playwright-mcp/

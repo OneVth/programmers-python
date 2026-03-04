@@ -1,0 +1,14 @@
+{
+  "problem_id": 181871,
+  "title": "문자열이 몇 번 등장하는지 세기",
+  "testcases": [
+    {
+      "inputs": ["banana", "ana"],
+      "expected": 2
+    },
+    {
+      "inputs": ["aaaa", "aa"],
+      "expected": 3
+    }
+  ]
+}
