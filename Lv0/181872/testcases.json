@@ -1,0 +1,14 @@
+{
+  "problem_id": 181872,
+  "title": "특정 문자열로 끝나는 가장 긴 부분 문자열 찾기",
+  "testcases": [
+    {
+      "inputs": ["AbCdEFG", "dE"],
+      "expected": "AbCdE"
+    },
+    {
+      "inputs": ["AAAAaaaa", "a"],
+      "expected": "AAAAaaaa"
+    }
+  ]
+}

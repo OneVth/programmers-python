@@ -1,0 +1,14 @@
+{
+  "problem_id": 181873,
+  "title": "특정한 문자를 대문자로 바꾸기",
+  "testcases": [
+    {
+      "inputs": ["programmers", "p"],
+      "expected": "Programmers"
+    },
+    {
+      "inputs": ["lowercase", "x"],
+      "expected": "lowercase"
+    }
+  ]
+}
