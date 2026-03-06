@@ -1,0 +1,14 @@
+{
+  "problem_id": 181877,
+  "title": "대문자로 바꾸기",
+  "testcases": [
+    {
+      "inputs": ["aBcDeFg"],
+      "expected": "ABCDEFG"
+    },
+    {
+      "inputs": ["AAA"],
+      "expected": "AAA"
+    }
+  ]
+}

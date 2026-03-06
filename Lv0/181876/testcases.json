@@ -1,0 +1,14 @@
+{
+  "problem_id": 181876,
+  "title": "소문자로 바꾸기",
+  "testcases": [
+    {
+      "inputs": ["aBcDeFg"],
+      "expected": "abcdefg"
+    },
+    {
+      "inputs": ["aaa"],
+      "expected": "aaa"
+    }
+  ]
+}

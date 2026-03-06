@@ -1,0 +1,14 @@
+{
+  "problem_id": 181878,
+  "title": "원하는 문자열 찾기",
+  "testcases": [
+    {
+      "inputs": ["AbCdEfG", "aBc"],
+      "expected": 1
+    },
+    {
+      "inputs": ["aaAA", "aaaaa"],
+      "expected": 0
+    }
+  ]
+}

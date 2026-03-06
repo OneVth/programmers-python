@@ -1,0 +1,14 @@
+{
+  "problem_id": 181874,
+  "title": "A 강조하기",
+  "testcases": [
+    {
+      "inputs": ["abstract algebra"],
+      "expected": "AbstrAct AlgebrA"
+    },
+    {
+      "inputs": ["PrOgRaMmErS"],
+      "expected": "progrAmmers"
+    }
+  ]
+}

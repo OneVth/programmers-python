@@ -1,0 +1,14 @@
+{
+  "problem_id": 181875,
+  "title": "배열에서 문자열 대소문자 변환하기",
+  "testcases": [
+    {
+      "inputs": [["AAA", "BBB", "CCC", "DDD"]],
+      "expected": ["aaa", "BBB", "ccc", "DDD"]
+    },
+    {
+      "inputs": [["aBc", "AbC"]],
+      "expected": ["abc", "ABC"]
+    }
+  ]
+}
