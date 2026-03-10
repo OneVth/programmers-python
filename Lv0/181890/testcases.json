@@ -1,0 +1,14 @@
+{
+  "problem_id": 181890,
+  "title": "왼쪽 오른쪽",
+  "testcases": [
+    {
+      "inputs": [["u", "u", "l", "r"]],
+      "expected": ["u", "u"]
+    },
+    {
+      "inputs": [["l"]],
+      "expected": []
+    }
+  ]
+}

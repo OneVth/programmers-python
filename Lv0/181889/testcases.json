@@ -1,0 +1,14 @@
+{
+  "problem_id": 181889,
+  "title": "n 번째 원소까지",
+  "testcases": [
+    {
+      "inputs": [[2, 1, 6], 1],
+      "expected": [2]
+    },
+    {
+      "inputs": [[5, 2, 1, 7, 5], 3],
+      "expected": [5, 2, 1]
+    }
+  ]
+}
