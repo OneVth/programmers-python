@@ -1,0 +1,14 @@
+{
+  "problem_id": 181892,
+  "title": "n 번째 원소부터",
+  "testcases": [
+    {
+      "inputs": [[2, 1, 6], 3],
+      "expected": [6]
+    },
+    {
+      "inputs": [[5, 2, 1, 7, 5], 2],
+      "expected": [2, 1, 7, 5]
+    }
+  ]
+}
