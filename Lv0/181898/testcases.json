@@ -1,0 +1,18 @@
+{
+  "problem_id": 181898,
+  "title": "가까운 1 찾기",
+  "testcases": [
+    {
+      "inputs": [[0, 0, 0, 1], 1],
+      "expected": 3
+    },
+    {
+      "inputs": [[1, 0, 0, 1, 0, 0], 4],
+      "expected": -1
+    },
+    {
+      "inputs": [[1, 1, 1, 1, 0], 3],
+      "expected": 3
+    }
+  ]
+}
