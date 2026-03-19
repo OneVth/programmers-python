@@ -1,0 +1,14 @@
+{
+  "problem_id": 181905,
+  "title": "문자열 뒤집기",
+  "testcases": [
+    {
+      "inputs": ["Progra21Sremm3", 6, 12],
+      "expected": "ProgrammerS123"
+    },
+    {
+      "inputs": ["Stanley1yelnatS", 4, 10],
+      "expected": "Stanley1yelnatS"
+    }
+  ]
+}

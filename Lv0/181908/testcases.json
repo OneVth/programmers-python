@@ -1,0 +1,22 @@
+{
+  "problem_id": 181908,
+  "title": "접미사인지 확인하기",
+  "testcases": [
+    {
+      "inputs": ["banana", "ana"],
+      "expected": 1
+    },
+    {
+      "inputs": ["banana", "nan"],
+      "expected": 0
+    },
+    {
+      "inputs": ["banana", "wxyz"],
+      "expected": 0
+    },
+    {
+      "inputs": ["banana", "abanana"],
+      "expected": 0
+    }
+  ]
+}

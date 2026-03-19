@@ -1,0 +1,14 @@
+{
+  "problem_id": 181904,
+  "title": "세로 읽기",
+  "testcases": [
+    {
+      "inputs": ["ihrhbakrfpndopljhygc", 4, 2],
+      "expected": "happy"
+    },
+    {
+      "inputs": ["programmers", 1, 1],
+      "expected": "programmers"
+    }
+  ]
+}

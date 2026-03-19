@@ -1,0 +1,22 @@
+{
+  "problem_id": 181906,
+  "title": "접두사인지 확인하기",
+  "testcases": [
+    {
+      "inputs": ["banana", "ban"],
+      "expected": 1
+    },
+    {
+      "inputs": ["banana", "nan"],
+      "expected": 0
+    },
+    {
+      "inputs": ["banana", "abcd"],
+      "expected": 0
+    },
+    {
+      "inputs": ["banana", "bananan"],
+      "expected": 0
+    }
+  ]
+}

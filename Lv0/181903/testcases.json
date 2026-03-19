@@ -1,0 +1,14 @@
+{
+  "problem_id": 181903,
+  "title": "qr code",
+  "testcases": [
+    {
+      "inputs": [3, 1, "qjnwezgrpirldywt"],
+      "expected": "jerry"
+    },
+    {
+      "inputs": [1, 0, "programmers"],
+      "expected": "programmers"
+    }
+  ]
+}
