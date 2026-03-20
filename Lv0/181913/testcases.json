@@ -1,0 +1,13 @@
+{
+  "problem_id": 181913,
+  "title": "문자열 여러 번 뒤집기",
+  "testcases": [
+    {
+      "inputs": [
+        "rermgorpsam",
+        [[2, 3], [0, 7], [5, 9], [6, 10]]
+      ],
+      "expected": "programmers"
+    }
+  ]
+}

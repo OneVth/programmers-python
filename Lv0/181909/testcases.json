@@ -1,0 +1,14 @@
+{
+  "problem_id": 181909,
+  "title": "접미사 배열",
+  "testcases": [
+    {
+      "inputs": ["banana"],
+      "expected": ["a", "ana", "anana", "banana", "na", "nana"]
+    },
+    {
+      "inputs": ["programmers"],
+      "expected": ["ammers", "ers", "grammers", "mers", "mmers", "ogrammers", "programmers", "rammers", "rogrammers", "rs", "s"]
+    }
+  ]
+}

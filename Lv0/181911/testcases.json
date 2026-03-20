@@ -1,0 +1,13 @@
+{
+  "problem_id": 181911,
+  "title": "부분 문자열 이어 붙여 문자열 만들기",
+  "testcases": [
+    {
+      "inputs": [
+        ["progressive", "hamburger", "hammer", "ahocorasick"],
+        [[0, 4], [1, 2], [3, 5], [7, 7]]
+      ],
+      "expected": "programmers"
+    }
+  ]
+}
