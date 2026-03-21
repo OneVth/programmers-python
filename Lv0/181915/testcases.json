@@ -1,0 +1,14 @@
+{
+  "problem_id": 181915,
+  "title": "글자 이어 붙여 문자열 만들기",
+  "testcases": [
+    {
+      "inputs": ["cvsgiorszzzmrpaqpe", [16, 6, 5, 3, 12, 14, 11, 11, 17, 12, 7]],
+      "expected": "programmers"
+    },
+    {
+      "inputs": ["zpiaz", [1, 2, 0, 0, 3]],
+      "expected": "pizza"
+    }
+  ]
+}
