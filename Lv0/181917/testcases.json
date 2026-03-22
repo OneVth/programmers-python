@@ -1,0 +1,14 @@
+{
+  "problem_id": 181917,
+  "title": "간단한 논리 연산",
+  "testcases": [
+    {
+      "inputs": [false, true, true, true],
+      "expected": true
+    },
+    {
+      "inputs": [true, false, false, false],
+      "expected": false
+    }
+  ]
+}
