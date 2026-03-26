@@ -1,0 +1,14 @@
+{
+  "problem_id": 181931,
+  "title": "등차수열의 특정한 항만 더하기",
+  "testcases": [
+    {
+      "inputs": [3, 4, [true, false, false, true, true]],
+      "expected": 37
+    },
+    {
+      "inputs": [7, 1, [false, false, false, true, false, false, false]],
+      "expected": 10
+    }
+  ]
+}
