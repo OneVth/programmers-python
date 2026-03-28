@@ -1,0 +1,14 @@
+{
+  "problem_id": 181933,
+  "title": "flag에 따라 다른 값 반환하기",
+  "testcases": [
+    {
+      "inputs": [-4, 7, true],
+      "expected": 3
+    },
+    {
+      "inputs": [-4, 7, false],
+      "expected": -11
+    }
+  ]
+}

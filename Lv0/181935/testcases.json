@@ -1,0 +1,14 @@
+{
+  "problem_id": 181935,
+  "title": "홀짝에 따라 다른 값 반환하기",
+  "testcases": [
+    {
+      "inputs": [7],
+      "expected": 16
+    },
+    {
+      "inputs": [10],
+      "expected": 220
+    }
+  ]
+}

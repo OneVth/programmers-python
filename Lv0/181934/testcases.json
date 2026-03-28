@@ -1,0 +1,14 @@
+{
+  "problem_id": 181934,
+  "title": "조건 문자열",
+  "testcases": [
+    {
+      "inputs": ["<", "=", 20, 50],
+      "expected": 1
+    },
+    {
+      "inputs": [">", "!", 41, 78],
+      "expected": 0
+    }
+  ]
+}
