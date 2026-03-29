@@ -1,0 +1,14 @@
+{
+  "problem_id": 181938,
+  "title": "두 수의 연산값 비교하기",
+  "testcases": [
+    {
+      "inputs": [2, 91],
+      "expected": 364
+    },
+    {
+      "inputs": [91, 2],
+      "expected": 912
+    }
+  ]
+}

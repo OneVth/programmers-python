@@ -1,0 +1,10 @@
+{
+  "problem_id": 181941,
+  "title": "문자 리스트를 문자열로 변환하기",
+  "testcases": [
+    {
+      "inputs": [["a", "b", "c"]],
+      "expected": "abc"
+    }
+  ]
+}

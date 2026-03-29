@@ -1,0 +1,14 @@
+{
+  "problem_id": 181936,
+  "title": "공배수",
+  "testcases": [
+    {
+      "inputs": [60, 2, 3],
+      "expected": 1
+    },
+    {
+      "inputs": [55, 10, 5],
+      "expected": 0
+    }
+  ]
+}

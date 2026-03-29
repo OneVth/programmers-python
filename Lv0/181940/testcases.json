@@ -1,0 +1,14 @@
+{
+  "problem_id": 181940,
+  "title": "문자열 곱하기",
+  "testcases": [
+    {
+      "inputs": ["string", 3],
+      "expected": "stringstringstring"
+    },
+    {
+      "inputs": ["love", 10],
+      "expected": "lovelovelovelovelovelovelovelovelovelove"
+    }
+  ]
+}

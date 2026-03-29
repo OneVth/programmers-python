@@ -1,0 +1,14 @@
+{
+  "problem_id": 181937,
+  "title": "n의 배수",
+  "testcases": [
+    {
+      "inputs": [98, 2],
+      "expected": 1
+    },
+    {
+      "inputs": [34, 3],
+      "expected": 0
+    }
+  ]
+}

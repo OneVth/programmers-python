@@ -1,0 +1,14 @@
+{
+  "problem_id": 181939,
+  "title": "더 크게 합치기",
+  "testcases": [
+    {
+      "inputs": [9, 91],
+      "expected": 991
+    },
+    {
+      "inputs": [89, 8],
+      "expected": 898
+    }
+  ]
+}
