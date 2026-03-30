@@ -1,0 +1,14 @@
+{
+  "problem_id": 181946,
+  "title": "문자열 붙여서 출력하기",
+  "testcases": [
+    {
+      "inputs": ["apple", "pen"],
+      "expected": "applepen"
+    },
+    {
+      "inputs": ["Hello", "World!"],
+      "expected": "HelloWorld!"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "problem_id": 181943,
+  "title": "문자열 겹쳐쓰기",
+  "testcases": [
+    {
+      "inputs": ["He11oWor1d", "lloWorl", 2],
+      "expected": "HelloWorld"
+    },
+    {
+      "inputs": ["Program29b8UYP", "merS123", 7],
+      "expected": "ProgrammerS123"
+    }
+  ]
+}

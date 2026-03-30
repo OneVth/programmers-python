@@ -1,0 +1,14 @@
+{
+  "problem_id": 181944,
+  "title": "홀짝 구분하기",
+  "testcases": [
+    {
+      "inputs": [100],
+      "expected": "100 is even"
+    },
+    {
+      "inputs": [1],
+      "expected": "1 is odd"
+    }
+  ]
+}
