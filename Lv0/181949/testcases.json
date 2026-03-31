@@ -1,0 +1,10 @@
+{
+  "problem_id": 181949,
+  "title": "대소문자 바꿔서 출력하기",
+  "testcases": [
+    {
+      "inputs": ["aBcDeFg"],
+      "expected": "AbCdEfG"
+    }
+  ]
+}
