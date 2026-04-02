@@ -1,0 +1,22 @@
+{
+  "problem_id": 250126,
+  "title": "[PCCE 기출문제] 8번 / 창고 정리",
+  "testcases": [
+    {
+      "inputs": [["pencil", "pencil", "pencil", "book"], [2, 4, 3, 1]],
+      "expected": "pencil"
+    },
+    {
+      "inputs": [["doll", "doll", "doll", "doll"], [1, 1, 1, 1]],
+      "expected": "doll"
+    },
+    {
+      "inputs": [["apple", "steel", "leaf", "apple", "leaf"], [5, 3, 5, 3, 7]],
+      "expected": "leaf"
+    },
+    {
+      "inputs": [["mirror", "net", "mirror", "net", "bottle"], [4, 1, 4, 1, 5]],
+      "expected": "mirror"
+    }
+  ]
+}

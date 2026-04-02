@@ -1,0 +1,18 @@
+{
+  "problem_id": 250127,
+  "title": "[PCCE 기출문제] 7번 / 가습기",
+  "testcases": [
+    {
+      "inputs": ["auto", 23, 45],
+      "expected": 3
+    },
+    {
+      "inputs": ["target", 41, 40],
+      "expected": 1
+    },
+    {
+      "inputs": ["minimum", 10, 34],
+      "expected": 1
+    }
+  ]
+}

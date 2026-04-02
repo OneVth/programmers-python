@@ -1,0 +1,14 @@
+{
+  "problem_id": 250128,
+  "title": "[PCCE 기출문제] 6번 / 가채점",
+  "testcases": [
+    {
+      "inputs": [[1], [100], [100, 80, 90, 84, 20]],
+      "expected": ["Same"]
+    },
+    {
+      "inputs": [[3, 4], [85, 93], [85, 92, 38, 93, 48, 85, 92, 56]],
+      "expected": ["Different", "Same"]
+    }
+  ]
+}
