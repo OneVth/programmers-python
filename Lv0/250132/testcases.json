@@ -1,0 +1,14 @@
+{
+  "problem_id": 250132,
+  "title": "[PCCE 기출문제] 2번 / 피타고라스의 정리",
+  "testcases": [
+    {
+      "inputs": [3, 5],
+      "expected": 16
+    },
+    {
+      "inputs": [9, 10],
+      "expected": 19
+    }
+  ]
+}

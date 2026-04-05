@@ -1,0 +1,14 @@
+{
+  "problem_id": 250130,
+  "title": "[PCCE 기출문제] 4번 / 저축",
+  "testcases": [
+    {
+      "inputs": [28, 6, 8],
+      "expected": 12
+    },
+    {
+      "inputs": [75, 8, 25],
+      "expected": 2
+    }
+  ]
+}

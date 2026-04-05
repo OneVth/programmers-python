@@ -1,0 +1,14 @@
+{
+  "problem_id": 250129,
+  "title": "[PCCE 기출문제] 5번 / 산책",
+  "testcases": [
+    {
+      "inputs": ["NSSNEWWN"],
+      "expected": [-1, 1]
+    },
+    {
+      "inputs": ["EESEEWNWSNWWNS"],
+      "expected": [0, 0]
+    }
+  ]
+}

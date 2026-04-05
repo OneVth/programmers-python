@@ -1,0 +1,14 @@
+{
+  "problem_id": 250131,
+  "title": "[PCCE 기출문제] 3번 / 나이 계산",
+  "testcases": [
+    {
+      "inputs": [2000, "Korea"],
+      "expected": 31
+    },
+    {
+      "inputs": [1999, "Year"],
+      "expected": 31
+    }
+  ]
+}
