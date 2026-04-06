@@ -1,0 +1,14 @@
+{
+  "problem_id": 340200,
+  "title": "[PCCE 기출문제] 8번 / 닉네임 규칙",
+  "testcases": [
+    {
+      "inputs": ["WORLDworld"],
+      "expected": "VV0RLDvv"
+    },
+    {
+      "inputs": ["GO"],
+      "expected": "G0oo"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "problem_id": 340201,
+  "title": "[PCCE 기출문제] 7번 / 버스",
+  "testcases": [
+    {
+      "inputs": [5, [["On", "On", "On"], ["Off", "On", "-"], ["Off", "-", "-"]]],
+      "expected": 3
+    },
+    {
+      "inputs": [10, [["On", "On", "On", "On", "On", "On", "On", "On", "-", "-"], ["On", "On", "Off", "Off", "Off", "On", "On", "-", "-", "-"], ["On", "On", "On", "Off", "On", "On", "On", "Off", "Off", "Off"], ["On", "On", "Off", "-", "-", "-", "-", "-", "-", "-"]]],
+      "expected": 0
+    }
+  ]
+}
