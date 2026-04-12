@@ -1,0 +1,26 @@
+{
+  "problem_id": 340204,
+  "title": "[PCCE 기출문제] 4번 / 병과분류",
+  "testcases": [
+    {
+      "inputs": ["dry_eye"],
+      "expected": "Ophthalmologyc"
+    },
+    {
+      "inputs": ["pat23_08_20_head"],
+      "expected": "Neurosurgery"
+    },
+    {
+      "inputs": ["broken_infl"],
+      "expected": "Orthopedics"
+    },
+    {
+      "inputs": ["rash_skin"],
+      "expected": "Dermatology"
+    },
+    {
+      "inputs": ["unknown_case"],
+      "expected": "direct recommendation"
+    }
+  ]
+}
